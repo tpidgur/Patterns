@@ -1,0 +1,19 @@
+
+
+___________________________
+1.є 3 інтерфейси  Mouse, KeyBoard, TouchPad із закладеним для них різним функціоналом
+2. інтерфейс DeviceFactory , який повертає обєкти вказаних інтерфейсів:
+Mouse getMouse();
+KeyBoard getKeyboard();
+TouchPad getTouchPad();
+3. по дві реалізації на кожен інтерфейс Mouse, KeyBoard, TouchPad з "Ru" та "Eng" перекладами
+4. дві реалізації DeviceFactory: EnDeviceFactory та RuDeviceFactory, які повертають клас із пункту 3
+5. в методі Main вибирається вид фабрики: EnDeviceFactory чи RuDeviceFactory, яка реалізує набір
+RuMouse, RuKeyBoard, RuTouchPad чи EngMouse, EngKeyBoard, EngTouchPad
+
+
+
+
+
+
+
